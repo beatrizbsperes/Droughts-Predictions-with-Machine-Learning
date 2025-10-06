@@ -1,0 +1,12 @@
+[workspace]
+channels = ["conda-forge"]
+name = "Droughts-Predictions-with-Machine-Learning"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+numpy = ">=2.3.3,<3"
+pandas = ">=2.3.3,<3"
