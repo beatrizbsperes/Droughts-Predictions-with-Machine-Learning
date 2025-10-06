@@ -1,2 +1,5 @@
 # Datasets and temporary files
 data/
+# pixi environments
+.pixi/*
+!.pixi/config.toml
