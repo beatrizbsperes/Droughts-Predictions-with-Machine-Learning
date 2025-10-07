@@ -70,3 +70,4 @@ The original dataset contains multiple counties, potential missing values, and t
 - **Missing Value Handling:** Any missing values in the score target will be removed and, to avoid missing information regarding these observations, new features will be created by computing **rolling averages or sums** over the **past 180 days** for some meteorological variables.
 - **Date Handling:** The `date` column will be converted to a datetime format to facilitate temporal analysis and feature engineering.
 - **Feature Scaling:** Meteorological features will be normalized to ensure they are on comparable scales, which is important for many machine learning algorithms.
+- **Encode the date as a cyclical feature** using sin/cos transformation of day-of-year to capture seasonal patterns with smooth year-end wrap-around (Dec 31 → Jan 1).
