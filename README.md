@@ -10,9 +10,9 @@ The dataset integrates information from the **National Drought Mitigation Center
 Meteorological data were aggregated and aligned with these drought severity labels to enable **machine learning applications in climate and environmental monitoring**.
 
 The dataset is already divided into three subsets:
-- **Training Set:** Contains historical data from 2000 to 2009, used to train machine learning models (it represents around 47% of the all dataset).  
-- **Validation Set:** Contains data from 2010 to 2011, used for hyperparameter tuning and model selection (it represents around 10% of the all dataset).  
-- **Test Set:** Contains data from 2012 to 2020, used to test the model accuracy prediction (it represents around 43% of the all dataset).
+- **Training Set:** Contains historical data from 2000 to 2016, used to train machine learning models (it represents around 47% of the all dataset).  
+- **Validation Set:** Contains data from 2017 to 2018, used for hyperparameter tuning and model selection (it represents around 10% of the all dataset).  
+- **Test Set:** Contains data from 2019 to 2020, used to test the model accuracy prediction (it represents around 43% of the all dataset).
 
 All the subsets contain the same feature structure and data organization. For the context of this project, as explained later, it will be used this splitting format.
   
