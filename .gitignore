@@ -1,6 +1,8 @@
 # Datasets and temporary files
 data/
 **/.DS_Store
+notebooks/img/
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
